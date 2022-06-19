@@ -1,0 +1,2 @@
+# mailer
+Mail HTTP API

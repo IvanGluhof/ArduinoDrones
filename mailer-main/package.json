@@ -1,0 +1,31 @@
+{
+  "name": "mailer",
+  "version": "1.0.0",
+  "description": "Mail HTTP send interface",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drone-ai/mailer.git"
+  },
+  "keywords": [
+    "mail"
+  ],
+  "author": "Nicholas Schamberg",
+  "license": "SEE LICENSE IN README.MD",
+  "bugs": {
+    "url": "https://github.com/drone-ai/mailer/issues"
+  },
+  "homepage": "https://github.com/drone-ai/mailer#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "drone-ai-database": "git+https://github.com/drone-ai/database-api.git",
+    "drone-ai-logger": "git+https://github.com/drone-ai/logger.git",
+    "http-shutdown": "^1.2.2",
+    "nodemailer": "^6.4.13",
+    "restana": "^4.7.4"
+  }
+}

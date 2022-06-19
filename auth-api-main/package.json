@@ -1,0 +1,43 @@
+{
+  "name": "auth-api",
+  "version": "2.1.1",
+  "description": "Drone AI Auth API",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require tests/support/env --reporter spec --bail --check-leaks tests/",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drone-ai/auth-api.git"
+  },
+  "keywords": [
+    "auth",
+    "api"
+  ],
+  "author": "Nicholas Schamberg",
+  "license": "SEE LICENSE IN README.MD",
+  "bugs": {
+    "url": "https://github.com/drone-ai/auth-api/issues"
+  },
+  "homepage": "https://github.com/drone-ai/auth-api#readme",
+  "dependencies": {
+    "drone-ai-logger": "git+https://github.com/drone-ai/logger.git",
+    "drone-ai-database": "git+https://github.com/drone-ai/database-api.git",
+    "isemail": "^3.2.0",
+    "jose": "^2.0.2",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "passport-remember-me": "0.0.1",
+    "superagent": "^6.1.0"
+  },
+  "devDependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express-session": "^1.17.1",
+    "fyrejet": "^2.1.1",
+    "mocha": "^8.1.3",
+    "supertest": "^5.0.0"
+  }
+}

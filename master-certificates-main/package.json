@@ -1,0 +1,26 @@
+{
+  "name": "master-certificates",
+  "version": "1.0.0",
+  "description": "How to generate CA and other certificates",
+  "main": "index.js",
+  "scripts": {
+    "drone-server": "node ./drone-server-validation-test.js",
+    "server-drone": "node ./server-drone-validation-test.js",
+    "valid-client": "node ./valid-app.js",
+    "invalid-client": "node ./invalid-app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drone-ai/master-certificates.git"
+  },
+  "author": "Nicholas Schamberg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drone-ai/master-certificates/issues"
+  },
+  "homepage": "https://github.com/drone-ai/master-certificates#readme",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "express": "^4.17.1"
+  }
+}

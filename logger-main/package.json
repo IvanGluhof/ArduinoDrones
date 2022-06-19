@@ -1,0 +1,29 @@
+{
+  "name": "logger",
+  "version": "1.0.0",
+  "description": "Logger constructor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drone-ai/logger.git"
+  },
+  "keywords": [
+    "logger"
+  ],
+  "author": "Nicholas Schamberg",
+  "license": "SEE LICENSE IN README.MD",
+  "bugs": {
+    "url": "https://github.com/drone-ai/logger/issues"
+  },
+  "homepage": "https://github.com/drone-ai/logger#readme",
+  "dependencies": {
+    "@slack/web-api": "^5.13.0",
+    "axe": "^6.0.7",
+    "cabin": "^8.0.7",
+    "pino": "^6.7.0",
+    "pino-pretty": "^4.3.0"
+  }
+}

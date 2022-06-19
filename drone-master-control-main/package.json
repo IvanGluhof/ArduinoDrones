@@ -1,0 +1,36 @@
+{
+  "name": "drone-master-control",
+  "version": "1.0.0",
+  "description": "Master Control Microservice for ordering, controlling & supervising drone(s)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drone-ai/drone-master-control.git"
+  },
+  "keywords": [
+    "drone",
+    "order"
+  ],
+  "author": "Nicholas Schamberg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drone-ai/drone-master-control/issues"
+  },
+  "homepage": "https://github.com/drone-ai/drone-master-control#readme",
+  "dependencies": {
+    "drone-ai-authapi": "git+https://github.com/drone-ai/auth-api.git",
+    "drone-ai-boilerplate": "git+https://github.com/drone-ai/microservice-boilerplate.git",
+    "drone-ai-database": "git+https://github.com/drone-ai/database-api.git",
+    "drone-ai-logger": "git+https://github.com/drone-ai/logger.git",
+    "is-valid-geo-coordinates": "^1.1.0",
+    "superagent": "^6.1.0"
+  },
+  "productInfo": {
+    "name": "Drone AI Master Control Server",
+    "version": "1.0",
+    "codename": "Adventure Time"
+  }
+}
